@@ -36,6 +36,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -113,11 +114,21 @@
             this.textBox2.TabIndex = 7;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(42, 299);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(334, 15);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Hecho por: Kristan Ruíz Limón y Diana Yulissa Sesma Santiago";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(438, 276);
+            this.ClientSize = new System.Drawing.Size(433, 323);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label4);
@@ -126,8 +137,9 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.label1);
+            this.MinimumSize = new System.Drawing.Size(449, 362);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Conversor Centavos a Dólares";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -144,5 +156,6 @@
         private Label label4;
         private TextBox textBox1;
         private TextBox textBox2;
+        private Label label5;
     }
 }
