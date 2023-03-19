@@ -5,6 +5,7 @@ namespace EjercicioConversionCentavosDolares
         public Form1()
         {
             InitializeComponent();
+            Programa.HabilitarDeshabilitar(textBox1, textBox2);
         }
     }
 }
