@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EjercicioConversionCentavosDolares
 {
-    internal class Programa
+    internal class Funcionalidades
     {
         public static void HabilitarDeshabilitar(Control controlGenerico) => controlGenerico.Enabled = !controlGenerico.Enabled;
         public static void HabilitarDeshabilitar(Control controlGenerico, Control controlGenerico2)
